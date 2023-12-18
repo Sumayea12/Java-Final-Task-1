@@ -1,14 +1,12 @@
 <%@ page isELIgnored="false" %>
 <html>
-<head>
-    <title>Welcome to Student Registration</title>
-</head>
 <body>
-    <h2>Welcome to Student Registration!</h2>
+<h2>Hello Spring!</h2>
 
-    <hr>
+<hr>
 
-    <a href="${pageContext.request.contextPath}/createStudent">Create Student</a>
+<a href="${pageContext.request.contextPath}/create">Create User</a>
+<a href="${pageContext.request.contextPath}/Students">all students</a>
 
 </body>
 </html>
